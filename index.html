@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Management</title>
+</head>
+
+<body>
+
+    <h1>Users</h1>
+
+    <div class="form-control">
+        <input type="hidden" id="userId">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone">
+        <label for="age">Age:</label>
+        <input type="number" id="age">
+        <button id="saveButton" class="saveButton">Save User</button>
+    </div>
+
+    <table id="userTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <div class="view">
+        <h2>User Details</h2>
+        <p id="viewDetails"></p>
+    </div>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="index.js"></script>
+</body>
+
+</html>
